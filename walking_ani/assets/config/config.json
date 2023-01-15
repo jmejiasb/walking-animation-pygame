@@ -1,0 +1,42 @@
+{
+    "game": {
+        "screen_size": [600,480],
+        "background_color": [100,100,0],
+        "title": "Walking Animation" 
+    },
+
+    "font" : {
+        "file": ["walking_ani.assets.fonts", "Sansation.ttf"],
+        "size": 16,
+        "color": [255,255,255]
+    },
+
+    
+    "hero": {
+        "file": ["walking_ani.assets.images", "walking_animation.png"],
+        "speed": 0.25,
+        "sprite":{
+            "height": 128,
+            "width": 64,
+            "total_sprites": 20,
+            "columns": 10
+        }
+    },
+
+    "timing": {
+        "fps" : 60,
+        "time_per_frame" : 16,
+        "fps_pos" : [0,0],
+        "max_update_time" : 1000
+    },
+
+    "input" : {
+        "key_mapping" : {
+                "left" : "left",
+                "right" : "right",
+                "up" : "up",
+                "down" : "down" ,
+                "space": "space"
+        }
+    }
+}
