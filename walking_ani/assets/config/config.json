@@ -1,7 +1,7 @@
 {
     "game": {
         "screen_size": [600,480],
-        "background_color": [100,100,0],
+        "background_color": [135,206,235],
         "title": "Walking Animation" 
     },
 
